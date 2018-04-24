@@ -49,10 +49,10 @@ $ docker-compose up -d && docker-compose logs -f
 
 ### Quick use docker
 
-* start container: docker-compose up -d
-* log container: docker-compose logs -f
-* stop container: docker-compose stop
-* remove container: docker-compose rm
+* start container: `docker-compose up -d`
+* log container: `docker-compose logs -f`
+* stop container: `docker-compose stop`
+* remove container: `docker-compose rm`
 
 ### Quick set table
 
