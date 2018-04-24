@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+
+ pgsql:
+   image: postgres:9.6.1-alpine
+   ports:
+     - "0.0.0.0:3333:5432"
+   restart: "always"
+   environment:
+     - POSTGRES_USER=agd
+     - POSTGRES_PASSWORD=agd
+     - POSTGRES_DB=BDD
+     - PGDATA=/var/lib/postgresql/data/BDD
